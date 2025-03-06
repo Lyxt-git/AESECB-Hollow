@@ -14,4 +14,5 @@ PoC with PE Studio, Process Hacker and WinDBG according to the Python (64bit Tar
 7️⃣ Update entry point	                    Modify EAX in thread context to point to payload
 8️⃣ Resume execution	                    Use ResumeThread() to execute payload
 
-(This is a basic step in Fileless Memory Injection @ Process Hollowing).
+(This is a basic step in Fileless Memory Injection @ Process Hollowing). You may get the based code and re-design your own cryptology method, here is AES-ECB which to be consider as insecure.
+Insecure means, to crack it is easy ...
