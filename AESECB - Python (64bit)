@@ -1,11 +1,3 @@
-# This script is for educational purposes only and is based on insights from ChatGPT regarding Process Hollowing.
-# It demonstrates memory injection without writing to disk, as verified using Process Hacker and PE Studio during debugging.# This project is a based understanding about Process Hollowing. Use with Cautious.
-# This project is intended to enhance understanding of Process Hollowing and should be used with caution.
-# The script has been tested on notepad.exe (32-bit), successfully injecting the payload (demon.x86.exe).
-# However, while the payload is allocated correctly inside notepad.exe, it does not function properly when calling network services to C2F.
-# It is fully written in Python and supports only 64-bit payloads.
-# The function will encrypt your payload and save it as a .enc file, which will later be decrypted and injected into an allocated process on any 64-bit architecture. It will then create a suspended process, which can be resumed afterward..
-
 import base64
 import os
 import ctypes
