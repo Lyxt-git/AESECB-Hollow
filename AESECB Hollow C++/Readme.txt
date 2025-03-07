@@ -7,7 +7,7 @@ Features
 •	AES Encryption & Decryption using Crypto++
 •	File Encryption: Encrypts Executor.exe into Executor.enc
 •	Process Hollowing:
-o	Launches a suspended 32-bit Notepad
+o	Launches a suspended 32-bit Notepad (OR any)
 o	Allocates memory for decrypted payload
 o	Writes decrypted payload into Notepad's memory
 o	Modifies Notepad's execution context to run the injected payload
@@ -16,7 +16,8 @@ Prerequisites
 Dependencies:
 1.	Crypto++ Library (for AES encryption/decryption)
 2.	Windows API (for process manipulation)
-Compilation Requirements:
+
+Compilation Requirements: (Ninja, GCC, G++)
 •	Windows OS (32-bit target)
 •	C++ Compiler with Windows API Support (MinGW, MSVC, etc.)
 •	Crypto++ Headers and Libraries
@@ -29,6 +30,7 @@ File Structure
 │   ├── main.cpp                      # Source code
 │   ├── Readme.txt                    # This file
 
+Note for Consideration, the Executor is demon.x86.exe, build from HavocC2, you may create your own payload as you wish)
 
 Code Breakdown
 1. Encryption of Executor.exe
