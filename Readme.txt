@@ -50,7 +50,7 @@ Security Considerations
 
 Legal Disclaimer
 This code is provided strictly for educational purposes. Misuse of this technique for unauthorized access or malicious intent is illegal and not supported.
-________________________________________________________________________________________________________________________________________________________________
+_____________________________________________________________________________________________________________________________
 
 Author
 •	Name: Berzerker
