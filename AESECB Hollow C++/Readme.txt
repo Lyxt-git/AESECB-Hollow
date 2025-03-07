@@ -7,10 +7,10 @@ Features
 •	AES Encryption & Decryption using Crypto++
 •	File Encryption: Encrypts Executor.exe into Executor.enc
 •	Process Hollowing:
-o	Launches a suspended 32-bit Notepad (OR any)
-o	Allocates memory for decrypted payload
-o	Writes decrypted payload into Notepad's memory
-o	Modifies Notepad's execution context to run the injected payload
+  o	Launches a suspended 32-bit Notepad (OR any)
+  o	Allocates memory for decrypted payload
+  o	Writes decrypted payload into Notepad's memory
+  o	Modifies Notepad's execution context to run the injected payload
 
 Prerequisites
 Dependencies:
