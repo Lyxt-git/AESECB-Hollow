@@ -1,4 +1,4 @@
-Process Hollowing with AES Encryption
+Process Hollowing with AES Encryption (Pre-Compiled)
 
 Overview
 This project demonstrates Process Hollowing in C++ while incorporating AES encryption to obfuscate the payload. The program encrypts an executable file (Executor.exe), stores it as an encrypted binary file (Executor.enc), decrypts it in memory, and then injects it into a suspended 32-bit Notepad process.
