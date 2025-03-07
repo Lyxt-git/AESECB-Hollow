@@ -1,0 +1,30 @@
+"C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2024.2.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S "C:\Users\berzerker\Desktop\The Folder\My Project\Other Project\C2 Framework Project VMWare\Obfuscation Project Host using C++ 32bit Target" -B "C:\Users\berzerker\Desktop\The Folder\My Project\Other Project\C2 Framework Project VMWare\Obfuscation Project Host using C++ 32bit Target\cmake-build-debug"
+-- The C compiler identification is GNU 13.1.0
+-- The CXX compiler identification is GNU 13.1.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+CMake Warning in C:/Users/berzerker/Desktop/The Folder/My Project/Other Project/C2 Framework Project VMWare/Obfuscation Project Host using C++ 32bit Target/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-sq7bz5/CMakeLists.txt:
+  The object file directory
+
+    C:/Users/berzerker/Desktop/The Folder/My Project/Other Project/C2 Framework Project VMWare/Obfuscation Project Host using C++ 32bit Target/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-sq7bz5/CMakeFiles/cmTC_a05ee.dir/./
+
+  has 227 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    CMakeCXXCompilerABI.cpp.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files/JetBrains/CLion 2024.2.2/bin/mingw/bin/g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (16.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: C:/Users/berzerker/Desktop/The Folder/My Project/Other Project/C2 Framework Project VMWare/Obfuscation Project Host using C++ 32bit Target/cmake-build-debug

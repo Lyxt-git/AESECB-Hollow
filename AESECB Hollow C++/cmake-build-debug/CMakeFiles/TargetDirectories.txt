@@ -1,0 +1,3 @@
+C:/Users/berzerker/Desktop/The Folder/My Project/Other Project/C2 Framework Project VMWare/Obfuscation Project Host using C++ 32bit Target/cmake-build-debug/CMakeFiles/Obfuscation_Project_Host_using_C__.dir
+C:/Users/berzerker/Desktop/The Folder/My Project/Other Project/C2 Framework Project VMWare/Obfuscation Project Host using C++ 32bit Target/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/berzerker/Desktop/The Folder/My Project/Other Project/C2 Framework Project VMWare/Obfuscation Project Host using C++ 32bit Target/cmake-build-debug/CMakeFiles/rebuild_cache.dir
