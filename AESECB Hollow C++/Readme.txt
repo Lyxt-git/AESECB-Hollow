@@ -13,8 +13,11 @@ Features
   o	Modifies Notepad's execution context to run the injected payload
 
 Prerequisites
-Dependencies:
-1.	Crypto++ Library (for AES encryption/decryption)
+Dependencies: (MinGW, the Compiler should be set in system PATH)
+1.	Crypto++ Library (for AES encryption/decryption) Clone into C:/ (C:/cryptopp))
+  1.a. $$ mkdir C:\cryptopp\build
+          mingw32-make -j4 PREFIX=C:\cryptopp\build install
+  1.b. The libcryptlib.a must be inside "/build" directory.
 2.	Windows API (for process manipulation)
 
 Compilation Requirements: (Ninja, GCC, G++)
